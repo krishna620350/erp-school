@@ -1,4 +1,4 @@
-import data from "../json/data.json" assert { type: "json" };
+import { data } from "../json/jsonData.cjs";
 import { logFileCreate } from "../logs/log.js";
 
 const logFile = new logFileCreate();

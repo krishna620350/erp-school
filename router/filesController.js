@@ -1,6 +1,6 @@
 import { schoolControllerObject } from "../controller/controllerSchool.js";
 import { classControllerObject } from "../controller/controllerClass.js";
-import data from "../json/data.json" assert {type: "json"}
+import { data } from "../json/jsonData.cjs";
 
 export const controller = {
     router: data.routers,

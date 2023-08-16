@@ -1,4 +1,4 @@
-import data from "../json/data.json" assert {type: "json"}
+import { data } from "../json/jsonData.cjs";
 import { validateSchoolData } from "../model/schemaRegistration.js";
 import { validateClassData } from "../model/classValidation.js";
 import { schoolObject } from "../database/dataSchool.js";
