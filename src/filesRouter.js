@@ -1,4 +1,4 @@
-import { router } from "../Router/routerSchool.js";
+import { router } from "../router/routerSchool.js";
 import { routerClass } from "../router/routerClass.js";
 export const paths = {
     school: router,
