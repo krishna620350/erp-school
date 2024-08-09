@@ -16,7 +16,7 @@ class classController {
             res.status(500).json({ message: "Internal server error." });
         }
     }
-
+//controlling inserting data
     insertData = async(req, res) => {
         try{
             const data = req.body;            
